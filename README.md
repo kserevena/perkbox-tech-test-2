@@ -3,6 +3,11 @@
 # Prerequisites
 A recent version of docker (with docker-compose)
 
+# Testing
+
+1. Start the database as documented under 'Execution'
+2. Run `go test ./...`
+
 ## Execution
 Start the database with the following docker compose command:
 
